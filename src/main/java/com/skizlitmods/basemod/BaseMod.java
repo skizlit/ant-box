@@ -3,6 +3,9 @@ package com.skizlitmods.basemod;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
+import com.skizlitmods.basemod.registries.minecraft.ModBlocks;
+import com.skizlitmods.basemod.registries.minecraft.ModCreativeModeTabs;
+import com.skizlitmods.basemod.registries.minecraft.ModItems;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +27,10 @@ public class BaseMod {
     public BaseMod() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
