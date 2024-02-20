@@ -22,8 +22,7 @@ public class ModCreativeModeTabs {
                                         () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TabImage.get()))
                                                              .title(Component.translatable(ModConstants.CREATIVE_TAB_TRANSLATION))
                                                              .displayItems((parameters, output) -> {
-                                                                 // TO DO: Add tab items in order of display preference.
-                                                                 // pOutput.accept(ModItems.SAPPHIRE.get());
+                                                                  output.accept(ModItems.ANT_QUEEN_BLACK.get());
                                                              })
                                                              .build());
 

@@ -3,6 +3,7 @@ package com.skizlitmods.antbox;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
+import com.skizlitmods.antbox.datagen.loottables.ModLootModifiers;
 import com.skizlitmods.antbox.registries.minecraft.ModBlocks;
 import com.skizlitmods.antbox.registries.minecraft.ModCreativeModeTabs;
 import com.skizlitmods.antbox.registries.minecraft.ModItems;
@@ -29,8 +30,11 @@ public class AntBox {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

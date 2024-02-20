@@ -5,6 +5,7 @@ import java.util.concurrent.CompletableFuture;
 import com.skizlitmods.antbox.AntBox;
 import com.skizlitmods.antbox.datagen.blockstats.ModBlockStateProvider;
 import com.skizlitmods.antbox.datagen.items.ModItemModelProvider;
+import com.skizlitmods.antbox.datagen.loottables.ModGlobalLootModifiersProvider;
 import com.skizlitmods.antbox.datagen.loottables.ModLootTableProvider;
 import com.skizlitmods.antbox.datagen.recipes.ModRecipeProvider;
 import com.skizlitmods.antbox.datagen.tags.ModBlockTagProvider;
@@ -43,5 +44,7 @@ public class DataGenerators {
 
         ModBlockTagProvider blockTagGenerator = generator.addProvider(event.includeServer(), new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagGenerator.contentsGetter(), existingFileHelper));
+
+        generator.addProvider(event.includeServer(), new ModGlobalLootModifiersProvider(packOutput));
     }
 }

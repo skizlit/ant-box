@@ -1,6 +1,7 @@
 package com.skizlitmods.antbox.datagen.items;
 
 import com.skizlitmods.antbox.AntBox;
+import com.skizlitmods.antbox.registries.minecraft.ModItems;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -19,7 +20,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        //        registerBasicItem(ModItems.SAPPHIRE);
+
+        registerBasicItem(ModItems.ANT_QUEEN_BLACK);
     }
 
     private ItemModelBuilder registerBasicItem(final RegistryObject<Item> item) {

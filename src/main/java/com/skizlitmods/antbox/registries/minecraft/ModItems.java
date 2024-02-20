@@ -13,13 +13,12 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AntBox.MOD_ID);
 
-    // Used only as a placeholder for the creative tab image.
-    public static final RegistryObject<Item> TabImage = null;
+    // Ant Queen Types
+    public static final RegistryObject<Item> ANT_QUEEN_BLACK = ITEMS.register("ant_queen_black",
+                                                                              () -> new Item(new Item.Properties()));
 
-    /* Template
-        public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
-            () -> new Item(new Item.Properties()));
-     */
+    // Used only as a placeholder for the creative tab image.
+    public static final RegistryObject<Item> TabImage = ANT_QUEEN_BLACK;
 
     private ModItems() throws InstantiabilityException {
 
