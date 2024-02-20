@@ -2,7 +2,7 @@ package com.skizlitmods.antbox.datagen;
 
 import java.util.concurrent.CompletableFuture;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 import com.skizlitmods.antbox.datagen.blockstats.ModBlockStateProvider;
 import com.skizlitmods.antbox.datagen.items.ModItemModelProvider;
 import com.skizlitmods.antbox.datagen.loottables.ModLootTableProvider;
@@ -19,7 +19,7 @@ import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = BaseMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = AntBox.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
 
     private DataGenerators() throws InstantiabilityException {

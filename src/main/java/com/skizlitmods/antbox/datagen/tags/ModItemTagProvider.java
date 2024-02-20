@@ -11,11 +11,11 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 
 public class ModItemTagProvider extends ItemTagsProvider {
     public ModItemTagProvider(final PackOutput packOutput, final CompletableFuture<HolderLookup.Provider> provider, final CompletableFuture<TagLookup<Block>> blockTagsProvider, final @Nullable ExistingFileHelper existingFileHelper) {
-        super(packOutput, provider, blockTagsProvider, BaseMod.MOD_ID, existingFileHelper);
+        super(packOutput, provider, blockTagsProvider, AntBox.MOD_ID, existingFileHelper);
     }
 
     @Override

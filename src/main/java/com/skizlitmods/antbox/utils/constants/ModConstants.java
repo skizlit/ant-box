@@ -1,6 +1,6 @@
 package com.skizlitmods.antbox.utils.constants;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 public class ModConstants {
@@ -11,5 +11,5 @@ public class ModConstants {
     }
 
     // Translation Strings
-    public static final String CREATIVE_TAB_TRANSLATION = "creativetab." + BaseMod.MOD_ID;
+    public static final String CREATIVE_TAB_TRANSLATION = "creativetab." + AntBox.MOD_ID;
 }

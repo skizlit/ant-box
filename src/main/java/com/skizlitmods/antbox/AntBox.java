@@ -18,13 +18,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod(BaseMod.MOD_ID)
-public class BaseMod {
+@Mod(AntBox.MOD_ID)
+public class AntBox {
 
     public static final String MOD_ID = "basemod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public BaseMod() {
+    public AntBox() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

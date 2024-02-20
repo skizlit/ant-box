@@ -1,6 +1,6 @@
 package com.skizlitmods.antbox.registries.minecraft;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 import com.skizlitmods.antbox.utils.constants.ModConstants;
 import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
@@ -14,11 +14,11 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModeTabs {
 
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BaseMod.MOD_ID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AntBox.MOD_ID);
 
     // Template
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB =
-            CREATIVE_MODE_TABS.register(BaseMod.MOD_ID,
+            CREATIVE_MODE_TABS.register(AntBox.MOD_ID,
                                         () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TabImage.get()))
                                                              .title(Component.translatable(ModConstants.CREATIVE_TAB_TRANSLATION))
                                                              .displayItems((parameters, output) -> {

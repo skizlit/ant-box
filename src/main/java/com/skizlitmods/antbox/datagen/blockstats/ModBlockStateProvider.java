@@ -1,6 +1,6 @@
 package com.skizlitmods.antbox.datagen.blockstats;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
@@ -12,7 +12,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     public ModBlockStateProvider(final PackOutput packOutput, final ExistingFileHelper existingFileHelper) {
 
-        super(packOutput, BaseMod.MOD_ID, existingFileHelper);
+        super(packOutput, AntBox.MOD_ID, existingFileHelper);
     }
 
     @Override

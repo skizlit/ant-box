@@ -1,6 +1,6 @@
 package com.skizlitmods.antbox.registries.minecraft;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 import net.minecraft.world.item.Item;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BaseMod.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AntBox.MOD_ID);
 
     // Used only as a placeholder for the creative tab image.
     public static final RegistryObject<Item> TabImage = null;

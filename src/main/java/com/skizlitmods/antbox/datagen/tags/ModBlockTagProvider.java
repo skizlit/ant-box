@@ -5,7 +5,7 @@ import java.util.concurrent.CompletableFuture;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -16,7 +16,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     public ModBlockTagProvider(final PackOutput packOutput, final CompletableFuture<HolderLookup.Provider> provider, final @Nullable ExistingFileHelper existingFileHelper) {
 
-        super(packOutput, provider, BaseMod.MOD_ID, existingFileHelper);
+        super(packOutput, provider, AntBox.MOD_ID, existingFileHelper);
     }
 
     @Override

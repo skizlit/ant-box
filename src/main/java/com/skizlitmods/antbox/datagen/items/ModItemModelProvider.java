@@ -1,6 +1,6 @@
 package com.skizlitmods.antbox.datagen.items;
 
-import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.AntBox;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -14,7 +14,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     public ModItemModelProvider(final PackOutput packOutput, final ExistingFileHelper existingFileHelper) {
 
-        super(packOutput, BaseMod.MOD_ID, existingFileHelper);
+        super(packOutput, AntBox.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -26,6 +26,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         return withExistingParent(item.getId().getPath(),
                                   new ResourceLocation("item/generated")).texture("layer0",
-                                                                                  new ResourceLocation(BaseMod.MOD_ID, "item/" + item.getId().getPath()));
+                                                                                  new ResourceLocation(AntBox.MOD_ID, "item/" + item.getId().getPath()));
     }
 }
