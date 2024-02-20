@@ -21,7 +21,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(AntBox.MOD_ID)
 public class AntBox {
 
-    public static final String MOD_ID = "basemod";
+    public static final String MOD_ID = "antbox";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public AntBox() {
