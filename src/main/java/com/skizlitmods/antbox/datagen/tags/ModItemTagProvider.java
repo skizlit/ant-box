@@ -1,4 +1,4 @@
-package com.skizlitmods.basemod.datagen.tags;
+package com.skizlitmods.antbox.datagen.tags;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-import com.skizlitmods.basemod.BaseMod;
+import com.skizlitmods.antbox.BaseMod;
 
 public class ModItemTagProvider extends ItemTagsProvider {
     public ModItemTagProvider(final PackOutput packOutput, final CompletableFuture<HolderLookup.Provider> provider, final CompletableFuture<TagLookup<Block>> blockTagsProvider, final @Nullable ExistingFileHelper existingFileHelper) {

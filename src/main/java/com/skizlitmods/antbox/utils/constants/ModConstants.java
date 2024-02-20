@@ -1,7 +1,7 @@
-package com.skizlitmods.basemod.utils.constants;
+package com.skizlitmods.antbox.utils.constants;
 
-import com.skizlitmods.basemod.BaseMod;
-import com.skizlitmods.basemod.utils.exceptions.InstantiabilityException;
+import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 public class ModConstants {
 

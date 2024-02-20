@@ -1,10 +1,10 @@
-package com.skizlitmods.basemod.datagen.loottables;
+package com.skizlitmods.antbox.datagen.loottables;
 
 import java.util.Set;
 
 import org.jetbrains.annotations.NotNull;
 
-import com.skizlitmods.basemod.registries.minecraft.ModBlocks;
+import com.skizlitmods.antbox.registries.minecraft.ModBlocks;
 
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;

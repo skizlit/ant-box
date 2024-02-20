@@ -1,8 +1,8 @@
-package com.skizlitmods.basemod.registries.minecraft;
+package com.skizlitmods.antbox.registries.minecraft;
 
-import com.skizlitmods.basemod.BaseMod;
-import com.skizlitmods.basemod.utils.constants.ModConstants;
-import com.skizlitmods.basemod.utils.exceptions.InstantiabilityException;
+import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.utils.constants.ModConstants;
+import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

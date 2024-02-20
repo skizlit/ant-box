@@ -1,4 +1,4 @@
-package com.skizlitmods.basemod.utils.exceptions;
+package com.skizlitmods.antbox.utils.exceptions;
 
 public class InstantiabilityException extends IllegalAccessException {
 

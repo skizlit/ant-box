@@ -1,6 +1,6 @@
-package com.skizlitmods.basemod.datagen.items;
+package com.skizlitmods.antbox.datagen.items;
 
-import com.skizlitmods.basemod.BaseMod;
+import com.skizlitmods.antbox.BaseMod;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;

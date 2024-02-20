@@ -1,6 +1,6 @@
-package com.skizlitmods.basemod.datagen.blockstats;
+package com.skizlitmods.antbox.datagen.blockstats;
 
-import com.skizlitmods.basemod.BaseMod;
+import com.skizlitmods.antbox.BaseMod;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;

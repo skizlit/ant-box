@@ -1,11 +1,11 @@
-package com.skizlitmods.basemod.datagen.tags;
+package com.skizlitmods.antbox.datagen.tags;
 
 import java.util.concurrent.CompletableFuture;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import com.skizlitmods.basemod.BaseMod;
+import com.skizlitmods.antbox.BaseMod;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;

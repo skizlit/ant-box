@@ -1,4 +1,4 @@
-package com.skizlitmods.basemod.datagen.loottables;
+package com.skizlitmods.antbox.datagen.loottables;
 
 import java.util.List;
 import java.util.Set;

@@ -1,9 +1,9 @@
-package com.skizlitmods.basemod.registries.minecraft;
+package com.skizlitmods.antbox.registries.minecraft;
 
 import java.util.function.Supplier;
 
-import com.skizlitmods.basemod.BaseMod;
-import com.skizlitmods.basemod.utils.exceptions.InstantiabilityException;
+import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

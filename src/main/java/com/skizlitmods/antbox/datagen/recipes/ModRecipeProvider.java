@@ -1,4 +1,4 @@
-package com.skizlitmods.basemod.datagen.recipes;
+package com.skizlitmods.antbox.datagen.recipes;
 
 import java.util.function.Consumer;
 

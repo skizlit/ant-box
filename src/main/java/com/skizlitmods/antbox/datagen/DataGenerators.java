@@ -1,16 +1,15 @@
-package com.skizlitmods.basemod.datagen;
+package com.skizlitmods.antbox.datagen;
 
 import java.util.concurrent.CompletableFuture;
 
-import com.skizlitmods.basemod.BaseMod;
-
-import com.skizlitmods.basemod.datagen.blockstats.ModBlockStateProvider;
-import com.skizlitmods.basemod.datagen.items.ModItemModelProvider;
-import com.skizlitmods.basemod.datagen.loottables.ModLootTableProvider;
-import com.skizlitmods.basemod.datagen.recipes.ModRecipeProvider;
-import com.skizlitmods.basemod.datagen.tags.ModBlockTagProvider;
-import com.skizlitmods.basemod.datagen.tags.ModItemTagProvider;
-import com.skizlitmods.basemod.utils.exceptions.InstantiabilityException;
+import com.skizlitmods.antbox.BaseMod;
+import com.skizlitmods.antbox.datagen.blockstats.ModBlockStateProvider;
+import com.skizlitmods.antbox.datagen.items.ModItemModelProvider;
+import com.skizlitmods.antbox.datagen.loottables.ModLootTableProvider;
+import com.skizlitmods.antbox.datagen.recipes.ModRecipeProvider;
+import com.skizlitmods.antbox.datagen.tags.ModBlockTagProvider;
+import com.skizlitmods.antbox.datagen.tags.ModItemTagProvider;
+import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;

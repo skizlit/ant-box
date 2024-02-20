@@ -1,11 +1,11 @@
-package com.skizlitmods.basemod;
+package com.skizlitmods.antbox;
 
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
-import com.skizlitmods.basemod.registries.minecraft.ModBlocks;
-import com.skizlitmods.basemod.registries.minecraft.ModCreativeModeTabs;
-import com.skizlitmods.basemod.registries.minecraft.ModItems;
+import com.skizlitmods.antbox.registries.minecraft.ModBlocks;
+import com.skizlitmods.antbox.registries.minecraft.ModCreativeModeTabs;
+import com.skizlitmods.antbox.registries.minecraft.ModItems;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;

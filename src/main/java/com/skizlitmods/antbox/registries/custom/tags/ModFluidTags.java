@@ -1,6 +1,6 @@
-package com.skizlitmods.basemod.registries.custom.tags;
+package com.skizlitmods.antbox.registries.custom.tags;
 
-import com.skizlitmods.basemod.utils.exceptions.InstantiabilityException;
+import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
