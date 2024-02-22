@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
 
         registerBasicItem(ModItems.ANT_QUEEN_BLACK);
+        registerBasicItem(ModItems.TEST_TUBE_EMPTY);
     }
 
     private ItemModelBuilder registerBasicItem(final RegistryObject<Item> item) {

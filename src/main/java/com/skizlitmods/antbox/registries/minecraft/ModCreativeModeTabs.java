@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                                                              .title(Component.translatable(ModConstants.CREATIVE_TAB_TRANSLATION))
                                                              .displayItems((parameters, output) -> {
                                                                   output.accept(ModItems.ANT_QUEEN_BLACK.get());
+
+                                                                 output.accept(ModItems.TEST_TUBE_EMPTY.get());
                                                              })
                                                              .build());
 
