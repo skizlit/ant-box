@@ -21,6 +21,9 @@ public class ModItems {
     public static final RegistryObject<Item> TEST_TUBE_EMPTY = ITEMS.register("test_tube_empty",
                                                                               () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> TEST_TUBE_FOUNDED = ITEMS.register("test_tube_founded",
+                                                                              () -> new Item(new Item.Properties()));
+
     // Used only as a placeholder for the creative tab image.
     public static final RegistryObject<Item> TabImage = ANT_QUEEN_BLACK;
 
