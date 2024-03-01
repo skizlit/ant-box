@@ -3,11 +3,15 @@ package com.skizlitmods.antbox.registries.minecraft;
 import java.util.function.Supplier;
 
 import com.skizlitmods.antbox.AntBox;
+import com.skizlitmods.antbox.registries.custom.blocks.ExampleAdvancedBlock;
 import com.skizlitmods.antbox.utils.exceptions.InstantiabilityException;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,6 +25,13 @@ public class ModBlocks {
         public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
                 () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
      */
+
+    public static final RegistryObject<ExampleAdvancedBlock> EXAMPLE_ADVANCED_BLOCK = BLOCKS.register("example_advanced_block",
+                                                                                                      () -> new ExampleAdvancedBlock(BlockBehaviour.Properties.copy(Blocks.ANVIL)
+                                                                                                                                                              .mapColor(MapColor.TERRACOTTA_YELLOW)
+                                                                                                                                                              .strength(5.0f, 15f)
+                                                                                                                                                              .noLootTable()
+                                                                                                      ));
 
     private ModBlocks() throws InstantiabilityException {
 

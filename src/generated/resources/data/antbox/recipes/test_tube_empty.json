@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "pattern": [
+    "   ",
+    "S S",
+    " S "
+  ],
+  "result": {
+    "count": 6,
+    "item": "antbox:test_tube_empty"
+  },
+  "show_notification": true
+}

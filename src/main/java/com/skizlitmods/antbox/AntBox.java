@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 import com.skizlitmods.antbox.datagen.loottables.ModLootModifiers;
+import com.skizlitmods.antbox.registries.custom.blocks.entity.BlockEntityInit;
 import com.skizlitmods.antbox.registries.minecraft.ModBlocks;
 import com.skizlitmods.antbox.registries.minecraft.ModCreativeModeTabs;
 import com.skizlitmods.antbox.registries.minecraft.ModItems;
@@ -33,6 +34,8 @@ public class AntBox {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        BlockEntityInit.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
 
